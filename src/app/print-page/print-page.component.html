@@ -1,0 +1,1133 @@
+<div class="container">
+  <h1>Search Cost Estimate</h1>
+
+  <div class="d-flex flex-column">
+    <div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Transferee Information
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Transferee Name:</label>
+                <span> FirstName LastName </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Start Date:</label>
+                <span> StartDate </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Departure From::</label>
+                <span> DepartureFrom </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Relocation To:</label>
+                <span> ReloctaionTo </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Hiring Manager::</label>
+                <span> HiringManager </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Department Cost Center:</label
+                >
+                <span> DepartmentCostCenter </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Policy Level:</label>
+                <span> ProgramName </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Gross Up Method:</label>
+                <span> grossUpMethodText </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Client Defined Rate:</label
+                >
+                <span> ClientDefinedRate </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            TAXABLE EXPENSE
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Household Goods:</label>
+                <span> ExemptHouseholdGoodEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Reimbursement for Home Finding & Returned Trip:</label
+                >
+                <span>
+                  NonExemptHomeFindingReimbursementEstimate | currency
+                </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Lump Sum for Home Finding/Return Trips:</label
+                >
+                <span> NonExemptHomeFindingLumpSumEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Reimbursement of Home Sale Costs:</label
+                >
+                <span> NonExemptHomeSaleReimbursementEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Auto Transport:</label>
+                <span> ExemptAutoTransportEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Rental Assistance:</label
+                >
+                <span> NonExemptRentalAssistanceEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Spousal Assistance:</label
+                >
+                <span> NonExemptSpousalAssistanceEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Broker Finder Fee:</label
+                >
+                <span>
+                  NonExemptNewHomePurchaseBrokerFinderFee | currency
+                </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Household goods storage :</label
+                >
+                <span> NonExemptHouseholdGoodsStorageEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Temporary Housing:</label
+                >
+                <span> NonExemptTemporaryHousingEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >New Home Purchase:</label
+                >
+                <span>
+                  NonExemptNewHomePurchaseBrokerFinderFee | currency
+                </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Final Travel to New Home:</label
+                >
+                <span> ExemptFinalTripEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Miscellaneous Allowance:</label
+                >
+                <span> MiscExpenseAllowanceAmount | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Lease Cancellation:</label
+                >
+                <span> NonExemptLeaseCancellationEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Other:</label>
+                <span> NonExemptOtherExceptionsEstimate | currency </span>
+              </li>
+              <li>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    p-3
+                    rounded
+                    bg-gray-600
+                    text-white
+                  "
+                >
+                  <span class="mr-2">SUBTOTAL, TAXABLE EXPENSES: </span
+                  ><span class="font-weight-bold">
+                    ExemptSubTotal | currency
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            NONTAXABALE EXPENSE
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Sale Cost:</label>
+                <span> NonExemptHomeSaleReimbursementEstimate | currency </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Service Fees:</label>
+                <span> ExemptCapReloFeesEstimate | currency </span>
+              </li>
+              <li>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    p-3
+                    rounded
+                    bg-gray-600
+                    text-white
+                  "
+                >
+                  <span class="mr-2">SUBTOTAL, NONTAXABALE EXPENSES: </span
+                  ><span class="font-weight-bold">
+                    NonExemptSubTotal | currency
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Total Taxable and Nontaxable
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Estimated Tax Gross Up:</label
+                >
+                <span> TaxGrossUpEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Total Estimated Expenses:</label
+                >
+                <span> CombinedTotal | currency </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2 d-flex align-items-center">
+                <label class="text-primary mr-2 mb-0">
+                  <h5>GRAND TOTAL ESTIMATE:</h5>
+                </label>
+                <h4
+                  class="
+                    text-primary
+                    font-weight-semibold
+                    p-3
+                    bg-primary
+                    text-white
+                    rounded
+                  "
+                >
+                  <span class=""> GrandTotal | currency </span>
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Exceptions or Comments
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Finding:</label>
+                <span> HomeFindingExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Sale:</label>
+                <span> HomeSaleExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Temporary Housing:</label
+                >
+                <span> TemporaryHousingExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Household Goods:</label>
+                <span> HouseholdGoodsExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >New Home Purchase:</label
+                >
+                <span> NewHomePurchaseExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Final Trip:</label>
+                <span> FinalTripExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Miscellaneous:</label>
+                <span> MiscellaneousAllowanceComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Other:</label>
+                <span> OtherExceptionsOrComments </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Transferee Information
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Transferee Name:</label>
+                <span> FirstName LastName </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Start Date:</label>
+                <span> StartDate </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Departure From::</label>
+                <span> DepartureFrom </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Relocation To:</label>
+                <span> ReloctaionTo </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Hiring Manager::</label>
+                <span> HiringManager </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Department Cost Center:</label
+                >
+                <span> DepartmentCostCenter </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Policy Level:</label>
+                <span> ProgramName </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Gross Up Method:</label>
+                <span> grossUpMethodText </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Client Defined Rate:</label
+                >
+                <span> ClientDefinedRate </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            TAXABLE EXPENSE
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Household Goods:</label>
+                <span> ExemptHouseholdGoodEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Reimbursement for Home Finding & Returned Trip:</label
+                >
+                <span>
+                  NonExemptHomeFindingReimbursementEstimate | currency
+                </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Lump Sum for Home Finding/Return Trips:</label
+                >
+                <span> NonExemptHomeFindingLumpSumEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Reimbursement of Home Sale Costs:</label
+                >
+                <span> NonExemptHomeSaleReimbursementEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Auto Transport:</label>
+                <span> ExemptAutoTransportEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Rental Assistance:</label
+                >
+                <span> NonExemptRentalAssistanceEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Spousal Assistance:</label
+                >
+                <span> NonExemptSpousalAssistanceEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Broker Finder Fee:</label
+                >
+                <span>
+                  NonExemptNewHomePurchaseBrokerFinderFee | currency
+                </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Household goods storage :</label
+                >
+                <span> NonExemptHouseholdGoodsStorageEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Temporary Housing:</label
+                >
+                <span> NonExemptTemporaryHousingEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >New Home Purchase:</label
+                >
+                <span>
+                  NonExemptNewHomePurchaseBrokerFinderFee | currency
+                </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Final Travel to New Home:</label
+                >
+                <span> ExemptFinalTripEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Miscellaneous Allowance:</label
+                >
+                <span> MiscExpenseAllowanceAmount | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Lease Cancellation:</label
+                >
+                <span> NonExemptLeaseCancellationEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Other:</label>
+                <span> NonExemptOtherExceptionsEstimate | currency </span>
+              </li>
+              <li>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    p-3
+                    rounded
+                    bg-gray-600
+                    text-white
+                  "
+                >
+                  <span class="mr-2">SUBTOTAL, TAXABLE EXPENSES: </span
+                  ><span class="font-weight-bold">
+                    ExemptSubTotal | currency
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            NONTAXABALE EXPENSE
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Sale Cost:</label>
+                <span> NonExemptHomeSaleReimbursementEstimate | currency </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Service Fees:</label>
+                <span> ExemptCapReloFeesEstimate | currency </span>
+              </li>
+              <li>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    p-3
+                    rounded
+                    bg-gray-600
+                    text-white
+                  "
+                >
+                  <span class="mr-2">SUBTOTAL, NONTAXABALE EXPENSES: </span
+                  ><span class="font-weight-bold">
+                    NonExemptSubTotal | currency
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Total Taxable and Nontaxable
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Estimated Tax Gross Up:</label
+                >
+                <span> TaxGrossUpEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Total Estimated Expenses:</label
+                >
+                <span> CombinedTotal | currency </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2 d-flex align-items-center">
+                <label class="text-primary mr-2 mb-0">
+                  <h5>GRAND TOTAL ESTIMATE:</h5>
+                </label>
+                <h4
+                  class="
+                    text-primary
+                    font-weight-semibold
+                    p-3
+                    bg-primary
+                    text-white
+                    rounded
+                  "
+                >
+                  <span class=""> GrandTotal | currency </span>
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Exceptions or Comments
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Finding:</label>
+                <span> HomeFindingExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Sale:</label>
+                <span> HomeSaleExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Temporary Housing:</label
+                >
+                <span> TemporaryHousingExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Household Goods:</label>
+                <span> HouseholdGoodsExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >New Home Purchase:</label
+                >
+                <span> NewHomePurchaseExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Final Trip:</label>
+                <span> FinalTripExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Miscellaneous:</label>
+                <span> MiscellaneousAllowanceComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Other:</label>
+                <span> OtherExceptionsOrComments </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Transferee Information
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Transferee Name:</label>
+                <span> FirstName LastName </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Start Date:</label>
+                <span> StartDate </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Departure From::</label>
+                <span> DepartureFrom </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Relocation To:</label>
+                <span> ReloctaionTo </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Hiring Manager::</label>
+                <span> HiringManager </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Department Cost Center:</label
+                >
+                <span> DepartmentCostCenter </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Policy Level:</label>
+                <span> ProgramName </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Gross Up Method:</label>
+                <span> grossUpMethodText </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Client Defined Rate:</label
+                >
+                <span> ClientDefinedRate </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            TAXABLE EXPENSE
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Household Goods:</label>
+                <span> ExemptHouseholdGoodEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Reimbursement for Home Finding & Returned Trip:</label
+                >
+                <span>
+                  NonExemptHomeFindingReimbursementEstimate | currency
+                </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Lump Sum for Home Finding/Return Trips:</label
+                >
+                <span> NonExemptHomeFindingLumpSumEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Reimbursement of Home Sale Costs:</label
+                >
+                <span> NonExemptHomeSaleReimbursementEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Auto Transport:</label>
+                <span> ExemptAutoTransportEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Rental Assistance:</label
+                >
+                <span> NonExemptRentalAssistanceEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Spousal Assistance:</label
+                >
+                <span> NonExemptSpousalAssistanceEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Broker Finder Fee:</label
+                >
+                <span>
+                  NonExemptNewHomePurchaseBrokerFinderFee | currency
+                </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Household goods storage :</label
+                >
+                <span> NonExemptHouseholdGoodsStorageEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Temporary Housing:</label
+                >
+                <span> NonExemptTemporaryHousingEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >New Home Purchase:</label
+                >
+                <span>
+                  NonExemptNewHomePurchaseBrokerFinderFee | currency
+                </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Final Travel to New Home:</label
+                >
+                <span> ExemptFinalTripEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Miscellaneous Allowance:</label
+                >
+                <span> MiscExpenseAllowanceAmount | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Lease Cancellation:</label
+                >
+                <span> NonExemptLeaseCancellationEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Other:</label>
+                <span> NonExemptOtherExceptionsEstimate | currency </span>
+              </li>
+              <li>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    p-3
+                    rounded
+                    bg-gray-600
+                    text-white
+                  "
+                >
+                  <span class="mr-2">SUBTOTAL, TAXABLE EXPENSES: </span
+                  ><span class="font-weight-bold">
+                    ExemptSubTotal | currency
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            NONTAXABALE EXPENSE
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Sale Cost:</label>
+                <span> NonExemptHomeSaleReimbursementEstimate | currency </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Service Fees:</label>
+                <span> ExemptCapReloFeesEstimate | currency </span>
+              </li>
+              <li>
+                <div
+                  class="
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    p-3
+                    rounded
+                    bg-gray-600
+                    text-white
+                  "
+                >
+                  <span class="mr-2">SUBTOTAL, NONTAXABALE EXPENSES: </span
+                  ><span class="font-weight-bold">
+                    NonExemptSubTotal | currency
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Total Taxable and Nontaxable
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Estimated Tax Gross Up:</label
+                >
+                <span> TaxGrossUpEstimate | currency </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Total Estimated Expenses:</label
+                >
+                <span> CombinedTotal | currency </span>
+              </li>
+            </ul>
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2 d-flex align-items-center">
+                <label class="text-primary mr-2 mb-0">
+                  <h5>GRAND TOTAL ESTIMATE:</h5>
+                </label>
+                <h4
+                  class="
+                    text-primary
+                    font-weight-semibold
+                    p-3
+                    bg-primary
+                    text-white
+                    rounded
+                  "
+                >
+                  <span class=""> GrandTotal | currency </span>
+                </h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="border rounded bg-white mb-3">
+          <h5
+            class="
+              border-bottom
+              p-3
+              bg-gray-400
+              text-gray-900
+              rounded-top
+              text-uppercase
+            "
+          >
+            Exceptions or Comments
+          </h5>
+          <div class="d-flex flex-wrap pl-3 py-3">
+            <ul class="col-md-6 col-12 list-unstyled m-0 pl-0 pr-3">
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Finding:</label>
+                <span> HomeFindingExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Home Sale:</label>
+                <span> HomeSaleExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >Temporary Housing:</label
+                >
+                <span> TemporaryHousingExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Household Goods:</label>
+                <span> HouseholdGoodsExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0"
+                  >New Home Purchase:</label
+                >
+                <span> NewHomePurchaseExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Final Trip:</label>
+                <span> FinalTripExceptionsOrComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Miscellaneous:</label>
+                <span> MiscellaneousAllowanceComments </span>
+              </li>
+              <li class="mb-2">
+                <label class="text-gray-700 mr-2 mb-0">Other:</label>
+                <span> OtherExceptionsOrComments </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start: action button -->
+    <div
+      class="
+        d-flex
+        flex-md-row flex-column
+        justify-content-end
+        border-top
+        pt-md-4 pt-3
+      "
+    >
+      <button
+        type="button"
+        class="
+          btn btn-md btn-secondary
+          text-uppercase
+          mr-md-3 mr-md-2 mr-0
+          mb-md-0 mb-2
+        "
+        (click)="reset()"
+      >
+        Back
+      </button>
+      <button
+        type="button"
+        class="
+          btn btn-md btn-secondary
+          text-uppercase
+          mr-md-3 mr-md-2 mr-0
+          mb-md-0 mb-2
+        "
+      >
+        Print
+      </button>
+      <button
+        type="button"
+        class="
+          btn btn-md btn-secondary
+          text-uppercase
+          mr-md-3 mr-md-2 mr-0
+          mb-md-0 mb-2
+        "
+      >
+        Export to Excel
+      </button>
+      <button
+        type="button"
+        class="
+          btn btn-md btn-danger
+          text-uppercase
+          mr-md-3 mr-md-2 mr-0
+          mb-md-0 mb-2
+        "
+      >
+        Delete
+      </button>
+      <button
+        type="button"
+        title="Search"
+        class="btn btn-md btn-success text-uppercase"
+      >
+        Edit
+      </button>
+      <button
+        type="button"
+        class="
+          btn btn-md btn-secondary
+          text-uppercase
+          mr-md-3 mr-md-2 mr-0
+          mb-md-0 mb-2
+        "
+        (click)="printPage()"
+      >
+        Print
+      </button>
+    </div>
+    <!-- Ends: action button -->
+  </div>
+  <!-- <button (click)="printPage()">
+    ............""""""""""""""""""""""""""""""..................................Print
+    Page
+  </button> -->
+</div>
