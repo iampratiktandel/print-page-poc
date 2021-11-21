@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="print-section">
   <h1>Search Cost Estimate</h1>
 
   <div class="d-flex flex-column">
@@ -1113,15 +1113,24 @@
       </button>
       <button
         type="button"
+        class="btn btn-md btn-warning text-uppercase mr-3"
+        (click)="printPage()"
+      >
+        Print(With @media)
+      </button>
+
+      <button
+        type="button"
         class="
-          btn btn-md btn-secondary
+          btn btn-md btn-info
           text-uppercase
           mr-md-3 mr-md-2 mr-0
           mb-md-0 mb-2
         "
-        (click)="printPage()"
+        printSectionId="print-section"
+        ngxPrint
       >
-        Print
+        Print(With ngx-print)
       </button>
     </div>
     <!-- Ends: action button -->
